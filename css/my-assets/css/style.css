@@ -1,0 +1,93 @@
+header nav.navbar-default{background: #fff;margin-bottom: 0px;}
+header nav a.navbar-brand{width: 150px;display: block; padding: 10px; height: auto;}
+header nav .MenuRightWrapper .PhoneBoxWrap > span{font-size: 18px;line-height: 22px;padding-top: 15px;padding-right: 15px;display: inline-block;}
+header nav .MenuRightWrapper ul.navbar-nav li > a{font-size: 16px;line-height: 18px;color: #c3c3c3;transition: all .3s;}
+header nav .MenuRightWrapper ul.navbar-nav li > a::before{position: absolute;content:"^";left: 50%;bottom: -10px;color: #b21d22;opacity: 0px;visibility: hidden;transition: all .3s;}
+header nav .MenuRightWrapper ul.navbar-nav li:hover > a::before{opacity: 1;transition: all .3s;visibility: visible;}
+header nav .MenuRightWrapper ul.navbar-nav li > a:hover, header nav .MenuRightWrapper ul.navbar-nav li.active > a, header nav .MenuRightWrapper ul.navbar-nav li.active > a:hover{border-bottom: 3px solid #b21d22;background: transparent;transition: all .3s;color: #757575;}
+
+.MainContentWrapper{padding: 50px 0px;}
+.MainContentWrapper .newswrapList{margin-bottom: 30px;}
+.MainContentWrapper .newswrapList span{color: #ccc;margin-bottom: 20px;display: block;}
+/* ASIDE BAR MENU*/
+
+.MainContentWrapper .items{ display: inline; margin-left: 90px; position: relative;}
+.MainContentWrapper .item1{ border: solid 1px; box-shadow: 1px; }
+.MainContentWrapper .item2{ border: solid 1px; box-shadow: 1px;}
+.MainContentWrapper .item3{ border: solid 1px; box-shadow: 1px;}
+.MainContentWrapper .item-test1 h3{position: absolute; margin:270px 0px 0px 10px; color: black; font-weight: 600; font-size: 20px;}
+.MainContentWrapper .item-test1 h3:hover{color:#80cd33; transition: all 0.4s; font-weight: 600;}
+.MainContentWrapper .item-test1 p{position: absolute; margin:300px 0px 0px 10px; color: #999999;}
+.MainContentWrapper .item-test1 h4{position: absolute; margin:300px 0px 0px 200px; color: #4d4d4d;}
+
+.main-service{height: 500px; background-color: #303030;}
+.service h3{ color: blue; text-align: center; font-size: 50px; margin: 80px 0px 40px 0px; background: -webkit-linear-gradient(white, #35B9C6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+.service p{color: white; text-align: center; font-size: 50px; font-family:Qwigley; margin-bottom: 40px;}
+.service a{ color: white; border: solid 2px; padding: 10px 25px; border-radius: 30px; font-weight: 900; font-size: 18px; text-align: center;}
+.service a:hover{color:black; background-color: white; border-color: white;}
+
+/*About us CSS css*/
+.sticky-wrapper{ background-color: rgb(235, 235, 235);}
+.about-sec{ border: solid 1px; background-color: white; border-radius: 10px; margin-top: 20px; box-shadow: 3px 3px 10px; margin-bottom: 60px;}
+.about-sec h3{ margin-top: 20px; font-size: 25px;}
+.about-sec .vl {border-left: 10px solid #BDD3DC; height:100%; min-height:100%; max-height:100%; position: absolute;}
+.about-sec p{color: #737373; font-size: 15px; margin:0 auto; text-align: justify;}
+.about-sec img{width: 280px; margin: 0px 0px 0px 50px;}
+
+
+.about-sec2{ border: solid 1px; background-color: white; border-radius: 10px; height: 310px; margin-top: -40px; box-shadow: 3px 3px 10px; }
+.about-sec2 h3{ margin-top: 20px; font-size: 25px;}
+.vl2 {border-left: 10px solid #BDD3DC; height: 308px; float: left; margin-right: 20px;}
+.about-sec2 p{color: #737373; font-size: 15px; margin:0 auto; text-align: justify;}
+.about-sec2 img{width: 280px; margin: 20px -20px 0px -15px;}
+.about-sec2 a{color: black;}
+
+.about-sec3{ border: solid 1px; background-color: white; border-radius: 10px; height: 310px; margin-top: -40px; box-shadow: 3px 3px 10px; }
+.about-sec3 h3{ margin-top: 20px; font-size: 25px;}
+.vl2 {border-left: 10px solid #BDD3DC; height: 308px; float: left; margin-right: 20px;}
+.about-sec3 p{color: #737373; font-size: 15px; margin:0 auto; text-align: justify;}
+.about-sec3 img{width: 280px; margin: 20px -20px 0px -15px;}
+
+.about-sec4{ border: solid 1px; background-color: white; border-radius: 10px; height: 310px; margin-top: -40px; box-shadow: 3px 3px 10px; }
+.about-sec4 h3{ margin-top: 20px; font-size: 25px;}
+.vl2 {border-left: 10px solid #BDD3DC; height: 308px; float: left; margin-right: 20px;}
+.about-sec4 p{color: #737373; font-size: 15px; margin:0 auto; text-align: justify;}
+.about-sec4 img{width: 280px; margin: 20px -20px 0px -15px;}
+
+.about-sec6{ border: solid 1px; background-color: white; border-radius: 10px; height: 230px; margin-top: -40px; box-shadow: 3px 3px 10px; }
+.about-sec6 h3{ margin-top: 20px; font-size: 25px;}
+.vl3 {border-left: 10px solid #BDD3DC; height: 228px; float: right; margin-left: 20px;}
+.about-sec6 p{color: #737373; font-size: 15px; margin:0 auto; text-align: justify;}
+.about-sec6 img{width: 280px; margin: 20px 0px 0px -15px;}
+/*About us CSS End*/
+
+/*Page CSS Start*/
+.main-icon{background-color: #B8B7B6;  border-radius: 05px; width: 820px;}
+.main-icon button{background-color: #B8B7B6; border: none;}
+.main-icon button:hover{ background-color:#B8B7B6;  color: #ccc;  background-color:white; }
+.main-icon span{float:left; margin-top: 20px; margin-left: 110px;font-size: 18px; color: white; color: white!important; }
+.main-icon span:hover{color: black!important;}
+
+.tab-pane-1 input{width: 800px; height: 40px; border-radius: 5px; border-color:#ccc; }
+
+/*Page CSS End*/
+
+
+/* CUSTOMIZED FOOTER */
+footer ul > li > a{color: #fff;font-size: 14px;line-height: 16px;margin-bottom: 10px;display: block;}
+footer ul > li > a:hover{color: #b21d22;text-decoration: none;}
+footer p{color: #fff;}
+footer .footer-top-wrapper{background: #222222;padding:35px 0px;}
+footer .footer-top-wrapper .f-heading > h5{color: #959595;margin-bottom: 20px;}
+footer .footer-top-wrapper ul.SocialIcons{margin-bottom: 40px;}
+footer .footer-top-wrapper ul.SocialIcons li > a > i{margin-right: 15px;}
+footer .footer-top-wrapper ul.SocialIcons > li a > i.fa-facebook-f{color: #3b5a9a;}
+footer .footer-top-wrapper ul.SocialIcons > li a > i.fa-twitter{color: #25a8e0;}
+footer .footer-top-wrapper ul.SocialIcons > li a > i.fa-linkedin-in{color: #137bb8;}
+footer .footer-top-wrapper ul.SocialIcons > li a > i.fa-youtube{color: #d13632;}
+footer .footer-top-wrapper ul.SocialIcons > li a > i.fa-google-plus-g{color: #d13632;}
+footer .footer-top-wrapper ul.contactWrapper > li{position: relative;padding-left: 30px;}
+footer .footer-top-wrapper ul.contactWrapper > li > i{color: #fff;position: absolute;top: 5px;left: 0px;}
+footer .footer-bottom-wrapper{background: #333333;padding: 15px 0px;}
+footer .footer-bottom-wrapper ul {margin-bottom: 0px;}
+footer .footer-bottom-wrapper ul > li {padding: 0px 15px;}
